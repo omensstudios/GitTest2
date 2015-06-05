@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		C35C077B1B09CDF40058F308 /* Tile.m in Sources */ = {isa = PBXBuildFile; fileRef = C35C077A1B09CDF40058F308 /* Tile.m */; };
+		C35C077E1B09E4A90058F308 /* Factory.m in Sources */ = {isa = PBXBuildFile; fileRef = C35C077D1B09E4A90058F308 /* Factory.m */; };
+		C3A93B6A1B204F0000C3E215 /* Boss.m in Sources */ = {isa = PBXBuildFile; fileRef = C3A93B691B204F0000C3E215 /* Boss.m */; };
 		C3CD6C351B060405009FC6AC /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = C3CD6C341B060405009FC6AC /* main.m */; };
 		C3CD6C381B060405009FC6AC /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = C3CD6C371B060405009FC6AC /* AppDelegate.m */; };
 		C3CD6C3B1B060405009FC6AC /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C3CD6C3A1B060405009FC6AC /* ViewController.m */; };
@@ -14,6 +17,9 @@
 		C3CD6C401B060406009FC6AC /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C3CD6C3F1B060406009FC6AC /* Images.xcassets */; };
 		C3CD6C431B060406009FC6AC /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = C3CD6C411B060406009FC6AC /* LaunchScreen.xib */; };
 		C3CD6C4F1B060406009FC6AC /* Pirate_AdventureTests.m in Sources */ = {isa = PBXBuildFile; fileRef = C3CD6C4E1B060406009FC6AC /* Pirate_AdventureTests.m */; };
+		C3CE5DE41B170A32003E072D /* Weapon.m in Sources */ = {isa = PBXBuildFile; fileRef = C3CE5DE31B170A32003E072D /* Weapon.m */; };
+		C3CE5DE71B170A8F003E072D /* Armor.m in Sources */ = {isa = PBXBuildFile; fileRef = C3CE5DE61B170A8F003E072D /* Armor.m */; };
+		C3CE5DEA1B170BB7003E072D /* Character.m in Sources */ = {isa = PBXBuildFile; fileRef = C3CE5DE91B170BB7003E072D /* Character.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -27,6 +33,12 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		C35C07791B09CDF40058F308 /* Tile.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Tile.h; sourceTree = "<group>"; };
+		C35C077A1B09CDF40058F308 /* Tile.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Tile.m; sourceTree = "<group>"; };
+		C35C077C1B09E4A90058F308 /* Factory.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Factory.h; sourceTree = "<group>"; };
+		C35C077D1B09E4A90058F308 /* Factory.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Factory.m; sourceTree = "<group>"; };
+		C3A93B681B204F0000C3E215 /* Boss.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Boss.h; sourceTree = "<group>"; };
+		C3A93B691B204F0000C3E215 /* Boss.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Boss.m; sourceTree = "<group>"; };
 		C3CD6C2F1B060405009FC6AC /* Pirate Adventure.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Pirate Adventure.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		C3CD6C331B060405009FC6AC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		C3CD6C341B060405009FC6AC /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -40,6 +52,12 @@
 		C3CD6C481B060406009FC6AC /* Pirate AdventureTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Pirate AdventureTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		C3CD6C4D1B060406009FC6AC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		C3CD6C4E1B060406009FC6AC /* Pirate_AdventureTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Pirate_AdventureTests.m; sourceTree = "<group>"; };
+		C3CE5DE21B170A32003E072D /* Weapon.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Weapon.h; sourceTree = "<group>"; };
+		C3CE5DE31B170A32003E072D /* Weapon.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Weapon.m; sourceTree = "<group>"; };
+		C3CE5DE51B170A8F003E072D /* Armor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Armor.h; sourceTree = "<group>"; };
+		C3CE5DE61B170A8F003E072D /* Armor.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Armor.m; sourceTree = "<group>"; };
+		C3CE5DE81B170BB7003E072D /* Character.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Character.h; sourceTree = "<group>"; };
+		C3CE5DE91B170BB7003E072D /* Character.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Character.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,6 +78,26 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		C35C07751B09CD2F0058F308 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				C35C07791B09CDF40058F308 /* Tile.h */,
+				C35C077A1B09CDF40058F308 /* Tile.m */,
+				C35C077C1B09E4A90058F308 /* Factory.h */,
+				C35C077D1B09E4A90058F308 /* Factory.m */,
+				C3CE5DE21B170A32003E072D /* Weapon.h */,
+				C3CE5DE31B170A32003E072D /* Weapon.m */,
+				C3CE5DE51B170A8F003E072D /* Armor.h */,
+				C3CE5DE61B170A8F003E072D /* Armor.m */,
+				C3CE5DE81B170BB7003E072D /* Character.h */,
+				C3CE5DE91B170BB7003E072D /* Character.m */,
+				C3A93B681B204F0000C3E215 /* Boss.h */,
+				C3A93B691B204F0000C3E215 /* Boss.m */,
+			);
+			name = Model;
+			path = ..;
+			sourceTree = "<group>";
+		};
 		C3CD6C261B060405009FC6AC = {
 			isa = PBXGroup;
 			children = (
@@ -85,6 +123,7 @@
 				C3CD6C371B060405009FC6AC /* AppDelegate.m */,
 				C3CD6C391B060405009FC6AC /* ViewController.h */,
 				C3CD6C3A1B060405009FC6AC /* ViewController.m */,
+				C35C07751B09CD2F0058F308 /* Model */,
 				C3CD6C3C1B060405009FC6AC /* Main.storyboard */,
 				C3CD6C3F1B060406009FC6AC /* Images.xcassets */,
 				C3CD6C411B060406009FC6AC /* LaunchScreen.xib */,
@@ -219,9 +258,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C3CE5DE71B170A8F003E072D /* Armor.m in Sources */,
+				C35C077E1B09E4A90058F308 /* Factory.m in Sources */,
 				C3CD6C3B1B060405009FC6AC /* ViewController.m in Sources */,
+				C3CE5DEA1B170BB7003E072D /* Character.m in Sources */,
 				C3CD6C381B060405009FC6AC /* AppDelegate.m in Sources */,
+				C3CE5DE41B170A32003E072D /* Weapon.m in Sources */,
+				C3A93B6A1B204F0000C3E215 /* Boss.m in Sources */,
 				C3CD6C351B060405009FC6AC /* main.m in Sources */,
+				C35C077B1B09CDF40058F308 /* Tile.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -416,6 +461,7 @@
 				C3CD6C541B060406009FC6AC /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		C3CD6C551B060406009FC6AC /* Build configuration list for PBXNativeTarget "Pirate AdventureTests" */ = {
 			isa = XCConfigurationList;
@@ -424,6 +470,7 @@
 				C3CD6C571B060406009FC6AC /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
